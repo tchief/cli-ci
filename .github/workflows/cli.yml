@@ -35,6 +35,5 @@ jobs:
       - name: Describe design system
         run: >
           supernova describe-design-system
-          --apiKey="${{ secrets.SN_API_KEY_DEV }}"
+          --apiKey="${{ secrets.SN_API_KEY }}"
           --designSystemId="22694"
-          --environment=development
